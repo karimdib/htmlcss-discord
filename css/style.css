@@ -68,8 +68,6 @@ header fine
 
 /*prima sezione inizio*/
 
-
-
 .row{    
     display: flex;
     justify-content: center;
@@ -125,32 +123,35 @@ h1{
     padding: 10px 30px;
     border-radius: 25px;
 }
-
-
-
 /*prima sezione fine*/
+
+
+
 
 /*seconda sezione inizio*/
 
 .col-2{    
-    padding: 20px;
-    flex-basis: calc(100% / 12 * 8);
-    min-height: 300px;    
-}
-
-.azzurro{
-    background-color: #1f90ff
+    
+    flex-basis: calc(100% / 12 * 8);    
+    
 }
 
 .col-3{    
     padding: 20px;
     flex-basis: calc(100% /12 * 4);
-    min-height: 300px;
+        
 }
 
-.rosa{
-    background-color:  #ffc0cb;;
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
+
+.col-3 p{
+    line-height: 20px;
+}
+
 
 /*fine seconda sezione */
 
@@ -160,31 +161,44 @@ h1{
     background-color: #d3d3d3;
 }
 
+
+
 .col-4{    
     padding: 20px;
-    flex-basis: calc(100% / 12 * 8);
-    min-height: 300px;
+    flex-basis: calc(100% / 12 * 4);
+    
+    
+    
+}
+ p{
+    line-height: 20px;
+    
+}
+
+.col-4 h2{
+    padding-top: 50px;
 }
 
 .col-5{   
-    padding: 20px;
-    flex-basis: calc(100% / 12 * 4);
-    min-height: 300px;
+    
+    flex-basis: calc(100% / 12 * 8);
+    
+    
 }
+
+
 
 /*fine terza sezione */
 
-/*inzio quarta  sezione */
+/*inzio quinta  sezione */
 
 .col-6{    
-    padding: 20px;
+    
     flex-basis: calc( 100% /12 * 12);
     min-height: 800px;
 }
 
-.verde{
-    background-color: #228b22;;
-}
+
 
 /*fine quarta sezione */
 
