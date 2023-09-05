@@ -284,6 +284,7 @@ h2{
     background-color: #22272a;
     padding: 5px;
     min-height: 30px;
+    border-bottom-color: #7188d8
     
 }
 
@@ -291,12 +292,15 @@ h2{
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
-    background-color: #80fed4
+    border-top-color: #7188d8;
 }
 
-.bottoni{    
-    background-color: #ef8080;
-    border-style: dotted;
+footer a {
+    background-color: #8ea1e1;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
 }
 /*
 footer fine
