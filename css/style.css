@@ -9,6 +9,15 @@ GENERALI inizio
     box-sizing: border-box;
 }
 
+ul, ol {
+    list-style: none;
+    padding: 10px;
+}
+li{
+    line-height: 30px;
+    color: white;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -72,13 +81,14 @@ header fine
     display: flex;
     justify-content: center;
     padding: 20px;
+    
 }
 
 .first-section{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
-    height: 500px;
+    
     
 }
 
@@ -194,8 +204,30 @@ h2{
 
 .col-6{    
     
-    flex-basis: calc( 100% /12 * 12);
-    min-height: 800px;
+    flex-basis: calc( 100% /12 * 12);    
+    text-align: center;
+    padding: 20px;
+    line-height: 100px;
+}
+
+.avventure{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;    
+}
+
+.bg-avventure{
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+#thirth-a{
+    text-decoration: none;
+    color: white;
+    background-color: #8ea1e1;
+    padding: 15px 45px;
+    border-radius: 25px;
 }
 
 
@@ -211,24 +243,40 @@ h2{
 
 .col-7{
     flex-basis: calc(100%  / 12 * 4 );        
-    min-height: 600px;
+    
+    color: white;
 }
 
-.rosso{
-    background-color: #ef8080;
+.col-7 h2{
+    color: #7188d8;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
+.ita-img{
+    font-size: 5px;
+
+}
+
+
+#opzioni{
+    background-color: #22272a;
+    color: white;
+    font-size: 20px;
+    vertical-align: 15px;
+}
 
 .col-8{
     flex-basis: calc(100% / 12 * 2);
-    min-height: 600px;    
-    border-style: dotted;
-    border-color: white;
+    color: white;
 }
 
-.verde-chiaro{
-    background-color: #21b2aa;
+.col-8 ul{
+    color: #7188d8;
+    
 }
+
+
 /*fine quinta sezione */
 
 /*footer-inizio*/
