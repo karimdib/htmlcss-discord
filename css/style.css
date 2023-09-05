@@ -2,10 +2,15 @@
 /*
 GENERALI inizio
 */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -29,14 +34,14 @@ header inizio
 */
 
 .navi {
-    background-color: #add8e5;
+    background-color: #3061e0;
     min-height: 60px;
     padding: 20px 0;
 
 }
 
 .row-header{
-    background-color: #daa520;
+    color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -63,9 +68,7 @@ header fine
 
 /*prima sezione inizio*/
 
-.first-section{
-    background-color:#00208b ;
-}
+
 
 .row{    
     display: flex;
@@ -73,15 +76,57 @@ header fine
     padding: 20px;
 }
 
+.first-section{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+}
+
 .col-1 {
     flex-basis: calc(100% / 12 * 10);    
     padding: 20px;
     min-height: 300px;
+    color: white;
+    text-align: center;
 }
 
-.violet{
-    background-color: #ee82ee;
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size:60px;
+    padding: 20px;
 }
+
+.col-1 p{
+    font-weight: 500;
+    line-height: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#first-a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    
+}
+
+#second-a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+
 
 /*prima sezione fine*/
 
