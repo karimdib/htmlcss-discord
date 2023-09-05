@@ -68,10 +68,6 @@ header a{
 }
 
 
-.col-link{
-    flex-basis: calc((100% / 12) * 6);
-   
-}
 
 
 
@@ -175,11 +171,21 @@ h2{
 
 /*inizio terza sezione */
 
+
 .thirth-section{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;    
 }
 
+ .wave {
+    height: 200px;
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.04);
+    
+}
 
+.flip{
+    transform: rotate(3.142rad);
+}
 
 .col-4{    
     padding: 20px;
@@ -245,9 +251,12 @@ h2{
 /*inizio quinta sezione */
 
 .five-section{
-    background-color: #22272a;
-    border-color: #8ea1e1; ;
-        
+    background-color: #22272a; 
+}
+
+.bordo{
+    border-top: 2px solid  #8ea1e1;
+    padding: 10px;
 }
 
 .col-7{
