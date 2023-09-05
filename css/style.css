@@ -27,12 +27,11 @@ body{
     margin: 0 auto;
 }
 
-
-.row{
-    display:flex ;
-    flex: wrap;
-    
+.justify-between {
+	justify-content: space-between;
 }
+
+
 
 /*
 GENERALI fine
@@ -42,9 +41,18 @@ GENERALI fine
 header inizio
 */
 
+
+header a{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+
 .navi {
     background-color: #3061e0;
-    min-height: 60px;
+    
     padding: 20px 0;
 
 }
@@ -53,23 +61,21 @@ header inizio
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 0px;
+    flex-direction: row;
+    align-items: center;
+    
 }
 
-.col-logo{
-    flex-basis: calc(100% / 12 * 3);
-    
-}
+
 .col-link{
-    flex-basis: calc(100% / 12 * 6);
-    
+    flex-basis: calc((100% / 12) * 6);
    
 }
-.col-log{
-    flex-basis: calc(100% / 12 * 3);
-    
-    
-}
+
+
+
+
 /*
 header fine 
 */
@@ -99,6 +105,8 @@ header fine
     color: white;
     text-align: center;
 }
+
+
 
 h1{
     font-family: 'Roboto', sans-serif;
@@ -238,12 +246,12 @@ h2{
 
 .five-section{
     background-color: #22272a;
+    border-color: #8ea1e1; ;
         
 }
 
 .col-7{
-    flex-basis: calc(100%  / 12 * 4 );        
-    
+    flex-basis: calc(100%  / 12 * 4 );            
     color: white;
 }
 
@@ -253,8 +261,8 @@ h2{
     margin-bottom: 20px;
 }
 
-.ita-img{
-    font-size: 5px;
+#ita-img{
+    width: 30px;
 
 }
 
@@ -263,7 +271,15 @@ h2{
     background-color: #22272a;
     color: white;
     font-size: 20px;
-    vertical-align: 15px;
+    border-style: none;
+    
+}
+
+
+
+.social{
+    width: 25px;
+    margin: 20px 5px;
 }
 
 .col-8{
@@ -284,15 +300,21 @@ h2{
     background-color: #22272a;
     padding: 5px;
     min-height: 30px;
-    border-bottom-color: #7188d8
+    
     
 }
 
+footer section{
+    border:#8ea1e1 ;
+}
+
 .row-footer {
-    padding: 10px 0;
+    
+    padding: 0px 0;
     display: flex;
     justify-content: space-between;
-    border-top-color: #7188d8;
+    align-items: center;
+    
 }
 
 footer a {
@@ -301,6 +323,7 @@ footer a {
     border-radius: 25px;
     text-decoration: none;
     color: white;
+    
 }
 /*
 footer fine
