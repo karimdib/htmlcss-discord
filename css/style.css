@@ -12,6 +12,7 @@ GENERALI inizio
 ul, ol {
     list-style: none;
     padding: 10px;
+    
 }
 li{
     line-height: 30px;
@@ -27,9 +28,7 @@ body{
     margin: 0 auto;
 }
 
-.justify-between {
-	justify-content: space-between;
-}
+
 
 
 
@@ -97,7 +96,6 @@ header fine
 .col-1 {
     flex-basis: calc(100% / 12 * 10);    
     padding: 20px;
-    min-height: 300px;
     color: white;
     text-align: center;
 }
@@ -296,9 +294,10 @@ h2{
     color: white;
 }
 
-.col-8 ul{
+.col-8 h4{
     color: #7188d8;
-    
+    padding-left: 10px;
+    padding-top: 10px;    
 }
 
 
